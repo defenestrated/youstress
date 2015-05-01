@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ /index.html [NC,L,R=301]
+RewriteRule ^(.*)$ www.sandbox.samgalison.com/youstress/index.html [NC,L,R=301]
